@@ -5,11 +5,11 @@
 <div><code>$ firebase init hosting</code></div>
 
 <p>- Nodemailer</p>
-
+<p>Inside functions directory</p>
 <code>$ npm install nodemailer</code>
 
 <h3>#SET ENV VARIABLES</h3>
-<code>$ firebase functions:config:set someservice.user="youremail@example.com" someservice.pass="yourpass"<code>
+<code>$ firebase functions:config:set someservice.user="youremail@example.com" someservice.pass="yourpass"</code>
 
 <h3>#DEPLOYMENT</h3>
 <code>$ firebase deploy</code>
